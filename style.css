@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.image img,
+.content img {
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+}
+
+.content {
+    flex: 1;
+    padding: 3rem;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 300px;
+    color: white;
+}
